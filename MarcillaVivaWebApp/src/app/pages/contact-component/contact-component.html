@@ -1,10 +1,10 @@
 <section>
   <!-- HERO -->
-    <header class="hero text-white p-5 mb-4 text-center">
-      <div class="container">
-        <h1 class="display-4">ASOCIACIÓN MARCILLA VIVA</h1>
-      </div>
-    </header>
+  <header class="hero text-white p-5 mb-4 text-center">
+    <div class="container">
+      <h1 class="display-4">ASOCIACIÓN MARCILLA VIVA</h1>
+    </div>
+  </header>
 
   <div class="container">
 
@@ -14,12 +14,14 @@
       Contacto
     </h2>
 
-    <!-- FILA: Mapa + Formulario (invertidos) -->
+    <!-- FILA: Mapa + Formulario -->
     <div class="row justify-content-center align-items-start g-4">
 
-      <!-- Mapa (izquierda) -->
-      <div class="col-md-5" style="margin-top: 70px;">
-        <div class="ratio ratio-4x3 shadow-sm rounded overflow-hidden">
+      <!-- COLUMNA MAPA + TARJETA -->
+      <div class="col-md-5">
+
+        <!-- Mapa -->
+        <div class="ratio ratio-4x3 shadow-sm rounded overflow-hidden mb-4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6998.919143345529!2d-4.401470525461259!3d42.31803909071878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd462d52db592c4d%3A0xd719d3522fc8ccd1!2s34469%20Marcilla%20de%20Campos%2C%20Palencia!5e1!3m2!1ses!2ses!4v1763483032994!5m2!1ses!2ses"
             style="border:0;"
@@ -28,23 +30,41 @@
             referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
+
+        <!-- Tarjeta contacto -->
+        <div class="card border-success shadow-sm">
+          <div class="card-header bg-success text-white fw-bold">
+            Información de contacto
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>📧 Correo:</strong> marcillavcamposviva@gmail.com
+              </li>
+              <li class="list-group-item">
+                <strong>📞 Número:</strong> XXX XXX XXX
+              </li>
+            </ul>
+          </div>
+        </div>
+
       </div>
 
-      <!-- Formulario (derecha) -->
+      <!-- Formulario -->
       <div class="col-md-5">
-        <h3 class="text-center text-secondary mb-3">
-          <i class="bi bi-envelope-paper-heart text-success me-2"></i>
-          Envíanos un mensaje
-        </h3>
-
         <form class="p-4 shadow-sm border rounded bg-light">
 
-          <div class="mb-3">
+          <h3 class="text-center text-secondary mb-4">
+            <i class="bi bi-envelope-paper-heart text-success me-2"></i>
+            Envíanos un mensaje
+          </h3>
+
+          <div class="mb-4">
             <label class="form-label">Tu nombre *</label>
             <input type="text" class="form-control" placeholder="Escribe tu nombre" required>
           </div>
 
-          <div class="mb-3">
+          <div class="mb-4">
             <label class="form-label">Tu correo electrónico *</label>
             <input type="email" class="form-control" placeholder="correo@ejemplo.com" required>
           </div>
@@ -67,28 +87,5 @@
       </div>
 
     </div>
-
-    <!-- Tarjeta de información debajo -->
-    <div class="row justify-content-center mt-4">
-      <div class="col-md-5">
-        <div class="card border-success shadow-sm">
-          <div class="card-header bg-success text-white fw-bold">
-            Información de contacto
-          </div>
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <strong>📧 Correo:</strong> marcillavcamposviva@gmail.com
-              </li>
-              <li class="list-group-item">
-                <strong>📞 Número:</strong> XXX XXX XXX
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
-
 </section>
