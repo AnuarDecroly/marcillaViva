@@ -19,4 +19,5 @@ export const IMAGES: string[] = [
     "../../../assets/IMG_9696.JPG",
     "../../../assets/IMG_9724.JPG",
     "../../../assets/IMG_9825.JPG",
+    "../../../assets/IMG_9823.JPG",
 ];
